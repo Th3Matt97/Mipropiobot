@@ -42,7 +42,7 @@ module.exports = {
             .setTitle(`Ayuda de __${client.user.tag}__`)
             .setColor(client.color)
             .setDescription(`Bot Multifuncional en desarrollo por \`MATT👾#4211\``)
-            .addFields([{name: `❓ **__¿Quién soy?__**`, value: `👋 Hola **${message.author.username}**, mi nombre es **__${client.user.username}__**\n🤯 Soy un BOT MULTIFUNCIONAL Incluyendo:\n> **ADMINISTRACIÓN\n> MODERACIÓN\n> MÚSICA**\n*y mucho más!*`}], )
+            //.addFields([{name: `❓ **__¿Quién soy?__**`, value: `👋 Hola **${message.author.username}**, mi nombre es **__${client.user.username}__**\n🤯 Soy un BOT MULTIFUNCIONAL Incluyendo:\n> **ADMINISTRACIÓN\n> MODERACIÓN\n> MÚSICA**\n*y mucho más!*`}], )
             //.addFields([{name: `📈 **__ESTADÍSTICAS__**`, value: `⚙ **${client.commands.size} Comandos**\n📁 en **${client.guilds.cache.size} Servidores**\n📶 **\`${client.ws.ping}ms\` Ping**\n👤 desarrollado por **[MATT👾#4211](https://discord.gg/MBPsvcphGf)**`}], )
             //.addFields([{name: `✍ **__CÓDIGO PÚBLICO__**`, value: `[\`DESCARGA EL CÓDIGO GRATIS!\`](https://github.com/dewstouh/bot-del-canal)`}], )
             .setThumbnail(message.guild.iconURL({ dynamic: true }))
