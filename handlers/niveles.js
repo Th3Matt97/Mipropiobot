@@ -1,7 +1,7 @@
 const setupSchema = require(`${process.cwd()}/modelos/setups.js`);
 const {mongodb} = require(`${process.cwd()}/config/config.json`);
 const Levels = require('discord-xp');
-Levels.setURL(mongodb);
+Levels.setURL(process.env.mongodb);
 module.exports = client => {
     client.on("messageCreate", async message => {
         try {
